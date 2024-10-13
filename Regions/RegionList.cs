@@ -9,7 +9,7 @@ namespace F3Core.Regions
             new Delta(),
             new Rubicon(),
             new CapValleyIpssa(),
-            new FiaSouthFork()
+            new FiaSouthFork(),
         };
 
         // Get the region by the query string value
