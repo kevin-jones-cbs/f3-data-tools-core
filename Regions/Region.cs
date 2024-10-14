@@ -21,6 +21,8 @@ namespace F3Core.Regions
         public short Fng { get; set; }
         public short Post { get; set; }
         public short Q { get; set; }
+        public short QSourcePost { get; set; }
+        public short QSourceQ { get; set; }
     }
 
     public abstract class Region
@@ -46,5 +48,7 @@ namespace F3Core.Regions
         public abstract string AosRetiredIndicator { get; }
 
         public virtual bool SupportsDownrange { get; } = false;
+        public virtual bool HasHistoricalData { get; } = false;
+        public virtual bool HasQSourcePosts { get; } = false;
     }
 }
