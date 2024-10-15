@@ -11,5 +11,6 @@ namespace F3Core
         public string PaxName { get; set; }
         public int PostCount { get; set; }
         public int QCount { get; set; }
+        public DateTime? FirstPost { get; set; }
     }
 }
