@@ -6,5 +6,6 @@ namespace F3Core
         public string Site { get; set; }
         public string Pax { get; set; }
         public bool IsQ { get; set; }
+        public bool IsFNG { get; set; }
     }
 }
