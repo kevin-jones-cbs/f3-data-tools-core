@@ -33,8 +33,8 @@ namespace F3Core.Regions
             { 4, "Rubicon" },
             { 5, "South Fork" },
             { 6, "Terracotta" },
-            { 6, "SacTown" },
-            { 7, "Other" }
+            { 7, "SacTown" },
+            { 8, "Other" }
         };
 
     }
