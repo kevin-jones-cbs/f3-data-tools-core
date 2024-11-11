@@ -10,7 +10,8 @@ namespace F3Core.Regions
             new Rubicon(),
             new CapValleyIpssa(),
             new FiaSouthFork(),
-            new GoldRush()
+            new GoldRush(),
+            new SacTown()
         };
 
         // Get the region by the query string value
@@ -32,6 +33,7 @@ namespace F3Core.Regions
             { 4, "Rubicon" },
             { 5, "South Fork" },
             { 6, "Terracotta" },
+            { 6, "SacTown" },
             { 7, "Other" }
         };
 
