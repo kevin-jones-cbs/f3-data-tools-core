@@ -6,11 +6,11 @@ namespace F3Core.Regions
 
         public override string DisplayName => "Delta";        
 
-        public override string SpreadsheetId => "1hKQvESiXvfIHmisEY_PZn2RJ-aW_yCGsO7GSULAbZ-Y";
+        public override string SpreadsheetId => "1oZq5tsxR7xV_tBdUF0DfgkjKgEH2dYd1dwk0m8XMA1Y";
 
         public override int MasterDataSheetId => 729344821;
         public override string MasterDataSheetName => "Master Data";
-        public override int MissingDataRowOffset => 2400;
+        public override int MissingDataRowOffset => 15000;
 
         public override MasterDataColumnIndicies MasterDataColumnIndicies => new MasterDataColumnIndicies
         {
