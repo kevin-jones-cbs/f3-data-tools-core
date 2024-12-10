@@ -19,7 +19,9 @@ namespace F3Core.Regions
             PaxName = 11,
             Fng = 12,
             Post = 13,
-            Q = 14
+            Q = 14,
+            QSourcePost = 15,
+            QSourceQ = 16,
         };
 
         public override int RosterSheetId => 52995101;
@@ -41,5 +43,6 @@ namespace F3Core.Regions
             Retired = 7
         };
         public override string AosRetiredIndicator => string.Empty;
+        public override bool HasQSourcePosts => true;
     }
 }
