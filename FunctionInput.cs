@@ -9,5 +9,8 @@ namespace F3Core
         public string Region { get; set; }
         public string Comment { get; set; }
         public bool IsQSource { get; set; }
+
+        public short JsonRow { get; set; }
+        public string Json { get; set; }
     }
 }
