@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace F3Core.Regions
 {
-    public class Motherload : Region
+    public class Motherlode : Region
     {
-        public override string QueryStringValue => "motherload";
-        public override string DisplayName => "Motherload";
+        public override string QueryStringValue => "motherlode";
+        public override string DisplayName => "Mother Lode";
 
         public override string SpreadsheetId => "11gcmSoqcKgDrSr5_gS-37SIOEQfLbGanvLpCC-n-A7w";
 
