@@ -11,7 +11,8 @@ namespace F3Core.Regions
             new CapValleyIpssa(),
             new FiaSouthFork(),
             new GoldRush(),
-            new SacTown()
+            new SacTown(),
+            new Motherload()
         };
 
         // Get the region by the query string value
@@ -34,7 +35,8 @@ namespace F3Core.Regions
             { 5, "South Fork" },
             { 6, "Terracotta" },
             { 7, "SacTown" },
-            { 8, "Other" }
+            { 8, "Motherload" },
+            { 9, "Other" }
         };
 
     }
