@@ -12,5 +12,8 @@ namespace F3Core
 
         public short JsonRow { get; set; }
         public string Json { get; set; }
+
+        public CacheKeyType CacheKey { get; set; }
+        public string CacheValue { get; set; }
     }
 }
