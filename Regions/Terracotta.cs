@@ -28,7 +28,7 @@ namespace F3Core.Regions
         public override string RosterNameColumn => "A";
         public override List<RosterSheetColumn> RosterSheetColumns => new List<RosterSheetColumn>
         {
-            RosterSheetColumn.PaxName, RosterSheetColumn.Empty,  RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.Empty, RosterSheetColumn.JoinDate
+            RosterSheetColumn.PaxName, RosterSheetColumn.JoinDate
         };
 
         public override string AosSheetName => "Sites";
