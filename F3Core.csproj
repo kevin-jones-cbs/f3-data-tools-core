@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy /Y /I &quot;$(TargetDir)$(TargetFileName)&quot; &quot;C:\src\f3\f3-data-tools-backend\F3Lambda\Packages&quot;&#xD;&#xA;xcopy /Y /I &quot;$(TargetDir)$(TargetFileName)&quot; &quot;C:\src\f3\f3-data-tools-frontend\F3Wasm\Packages&quot;&#xD;&#xA;" />
+  </Target>
+
 </Project>
