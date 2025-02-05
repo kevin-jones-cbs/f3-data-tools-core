@@ -2,6 +2,6 @@
 {
     public enum CacheKeyType
     {
-        AllData, Locations, Close100s, AllDataSummary
+        AllData, Locations, Close100s, AllDataSummary, SectorData
     }
 }

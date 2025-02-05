@@ -8,7 +8,6 @@ namespace F3Core.Regions
             new Asgard(),
             new Delta(),
             new Rubicon(),
-            new CapValleyIpssa(),
             new FiaSouthFork(),
             new GoldRush(),
             new SacTown(),
