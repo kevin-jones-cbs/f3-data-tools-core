@@ -13,7 +13,8 @@ namespace F3Core.Regions
             new SacTown(),
             new Motherlode(),
             new Terracotta(),
-            new Junction()
+            new Junction(),
+            new Bedrock()
         };
 
         // Get the region by the query string value
