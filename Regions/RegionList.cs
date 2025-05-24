@@ -14,7 +14,8 @@ namespace F3Core.Regions
             new Motherlode(),
             new Terracotta(),
             new Junction(),
-            new Bedrock()
+            new Bedrock(),
+            new DryCreek()
         };
 
         // Get the region by the query string value
@@ -38,8 +39,10 @@ namespace F3Core.Regions
             { 6, "Terracotta" },
             { 7, "SacTown" },
             { 8, "Mother Lode" },
-            { 9, "Other" }
+            { 9, "Junction" },
+            { 10, "Bedrock" },
+            { 11, "DryCreek" },
+            { 12, "Other" }
         };
-
     }
 }
