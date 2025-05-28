@@ -6,8 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy /Y /I &quot;$(TargetDir)$(TargetFileName)&quot; &quot;C:\src\f3\f3-data-tools-backend\F3Lambda\Packages&quot;&#xD;&#xA;xcopy /Y /I &quot;$(TargetDir)$(TargetFileName)&quot; &quot;C:\src\f3\f3-data-tools-frontend\F3Wasm\Packages&quot;&#xD;&#xA;" />
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="$([MSBuild]::IsOSPlatform('Windows'))">
+    <Exec Command="xcopy /Y /I &quot;$(TargetDir)$(TargetFileName)&quot; &quot;C:\src\f3\f3-data-tools-backend\F3Lambda\Packages&quot;&#xD;&#xA;xcopy /Y /I &quot;$(TargetDir)$(TargetFileName)&quot; &quot;C:\src\f3\f3-data-tools-frontend\F3Wasm\Packages&quot;" />
   </Target>
-
+  
+  <Target Name="PostBuildMac" AfterTargets="PostBuildEvent" Condition="$([MSBuild]::IsOSPlatform('OSX'))">
+    <!-- Add Mac-compatible commands here if needed -->
+    <!-- Example:
+    <Exec Command="cp &quot;$(TargetDir)$(TargetFileName)&quot; &quot;/path/to/mac/destination&quot;" />
+    -->
+  </Target>
 </Project>
