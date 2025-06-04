@@ -42,7 +42,7 @@ namespace F3Core.Regions
             Retired = 12
         };
 
-        public override string AosRetiredIndicator => "Y";
+        public override string AosRetiredIndicator => "Active";
 
         public override bool HasHistoricalData => false;
         public override bool HasQSourcePosts => true;
