@@ -11,5 +11,6 @@ namespace F3Core
         public bool IsDr { get; set; }
         public int NamingRegionIndex { get; set; }
         public string NamingRegion { get; set; }
+        public bool ExtraActivity { get; set; }
     }
 }

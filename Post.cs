@@ -7,5 +7,6 @@ namespace F3Core
         public string Pax { get; set; }
         public bool IsQ { get; set; }
         public bool IsFNG { get; set; }
+        public bool ExtraActivity { get; set; }
     }
 }

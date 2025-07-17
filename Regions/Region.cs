@@ -23,13 +23,14 @@ namespace F3Core.Regions
         public short Q { get; set; }
         public short QSourcePost { get; set; }
         public short QSourceQ { get; set; }
+        public short ExtraActivity { get; set; }
     }
 
     public abstract class Region
     {
         public abstract string QueryStringValue { get; }
         public abstract string DisplayName { get; }
-        
+
         // Sheets
         public abstract string SpreadsheetId { get; }
 
@@ -50,5 +51,6 @@ namespace F3Core.Regions
         public virtual bool SupportsDownrange { get; } = false;
         public virtual bool HasHistoricalData { get; } = false;
         public virtual bool HasQSourcePosts { get; } = false;
+        public virtual bool HasExtraActivity { get; } = false;
     }
 }

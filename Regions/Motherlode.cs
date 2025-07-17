@@ -26,7 +26,8 @@ namespace F3Core.Regions
             Post = 13,
             Q = 14,
             QSourcePost = 15,
-            QSourceQ = 16
+            QSourceQ = 16,
+            ExtraActivity = 17
         };
 
         public override int RosterSheetId => 1860109286;
@@ -36,7 +37,6 @@ namespace F3Core.Regions
         {
             RosterSheetColumn.Formula, RosterSheetColumn.PaxName, RosterSheetColumn.JoinDate, RosterSheetColumn.Empty, RosterSheetColumn.NamingRegionName
         };
-
 
         public override string AosSheetName => "Sites";
 
@@ -51,6 +51,6 @@ namespace F3Core.Regions
         public override string AosRetiredIndicator => string.Empty;
 
         public override bool HasQSourcePosts => true;
-
+        public override bool HasExtraActivity => true;
     }
 }
