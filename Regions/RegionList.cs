@@ -8,14 +8,17 @@ namespace F3Core.Regions
             new Asgard(),
             new Delta(),
             new Rubicon(),
-            new FiaSouthFork(),
             new GoldRush(),
             new SacTown(),
             new Motherlode(),
             new Terracotta(),
             new Junction(),
             new Bedrock(),
-            new DryCreek()
+            new DryCreek(),
+
+            // FiA Regions
+            new FiaSouthFork(),
+            new FiaSacTown()
         };
 
         // Get the region by the query string value
