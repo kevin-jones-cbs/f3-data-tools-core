@@ -29,7 +29,7 @@ namespace F3Core.Regions
         public override string RosterNameColumn => "B";
         public override List<RosterSheetColumn> RosterSheetColumns => new List<RosterSheetColumn>
         {
-            RosterSheetColumn.Formula, RosterSheetColumn.PaxName, RosterSheetColumn.Empty, RosterSheetColumn.JoinDate, RosterSheetColumn.Formula, RosterSheetColumn.NamingRegionYN
+            RosterSheetColumn.Formula, RosterSheetColumn.PaxName, RosterSheetColumn.Empty, RosterSheetColumn.JoinDate, RosterSheetColumn.Formula, RosterSheetColumn.Empty, RosterSheetColumn.NamingRegionName
         };
 
 
