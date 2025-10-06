@@ -6,5 +6,6 @@ namespace F3Core
         public string City { get; set; }
         public DayOfWeek DayOfWeek { get; set; }
         public DateTime Date { get; set; }
+        public bool HasQSource { get; set; }
     }
 }
