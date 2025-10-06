@@ -11,6 +11,7 @@ namespace F3Core.Regions
         public short City { get; set; }
         public short DayOfWeek { get; set; }
         public short Retired { get; set; }
+        public short HasQSource { get; set; }
     }
 
     public class MasterDataColumnIndicies
