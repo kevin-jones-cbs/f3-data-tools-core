@@ -8,8 +8,8 @@ namespace F3Core.Regions
 
         public override string SpreadsheetId => "1lMvACqxqatH-lyJg2DrAhePFAgzPX-uErNvhaG9j0d4";
 
-        public override int MasterDataSheetId => 729344821;
-        public override string MasterDataSheetName => "Master Data";
+        public override List<int> MasterDataSheetIds => new List<int> { 729344821 };
+        public override List<string> MasterDataSheetNames => new List<string> { "Master Data" };
         public override int MissingDataRowOffset => 2400;
 
         public override MasterDataColumnIndicies MasterDataColumnIndicies => new MasterDataColumnIndicies

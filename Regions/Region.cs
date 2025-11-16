@@ -35,8 +35,12 @@ namespace F3Core.Regions
         // Sheets
         public abstract string SpreadsheetId { get; }
 
-        public abstract int MasterDataSheetId { get; }
-        public abstract string MasterDataSheetName { get; }
+        public abstract List<int> MasterDataSheetIds { get; }
+        public abstract List<string> MasterDataSheetNames { get; }
+
+        // Helper properties for accessing the most recent (current) master data sheet
+        public int CurrentMasterDataSheetId => MasterDataSheetIds[^1];
+        public string CurrentMasterDataSheetName => MasterDataSheetNames[^1];
         public abstract int MissingDataRowOffset { get; }
         public abstract MasterDataColumnIndicies MasterDataColumnIndicies { get; }
 
