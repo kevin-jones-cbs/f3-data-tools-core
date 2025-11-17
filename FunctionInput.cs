@@ -15,5 +15,9 @@ namespace F3Core
 
         public CacheKeyType CacheKey { get; set; }
         public string CacheValue { get; set; }
+
+        // EH Support
+        public string PaxName { get; set; }
+        public string EhdByPaxName { get; set; }
     }
 }

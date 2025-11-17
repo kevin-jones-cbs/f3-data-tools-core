@@ -12,5 +12,6 @@ namespace F3Core
         public int NamingRegionIndex { get; set; }
         public string NamingRegion { get; set; }
         public bool ExtraActivity { get; set; }
+        public string EhdByPaxName { get; set; }
     }
 }

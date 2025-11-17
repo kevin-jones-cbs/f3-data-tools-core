@@ -2,7 +2,7 @@ namespace F3Core.Regions
 {
     public enum RosterSheetColumn
     {
-        PaxName, JoinDate, Empty, Formula, NamingRegionName, NamingRegionYN
+        PaxName, JoinDate, Empty, Formula, NamingRegionName, NamingRegionYN, EhBy
     }
 
     public class AoColumnIndicies
