@@ -15,6 +15,7 @@ namespace F3Core.Regions
             new Junction(),
             new Bedrock(),
             new DryCreek(),
+            new Emberwatch(),
 
             // FiA Regions
             new FiaSouthFork(),
@@ -45,7 +46,8 @@ namespace F3Core.Regions
             { 9, "Junction" },
             { 10, "Bedrock" },
             { 11, "DryCreek" },
-            { 12, "Other" }
+            { 12, "Emberwatch" },
+            { 13, "Other" }
         };
     }
 }
