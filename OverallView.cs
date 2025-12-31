@@ -13,6 +13,7 @@ namespace F3Core
         GoldStandard,
         TerracottaChallenge,
         SouthForkChallenge,
+        ForgeChallenge,
         UNSET
     }
 }
