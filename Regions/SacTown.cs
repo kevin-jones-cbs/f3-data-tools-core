@@ -39,7 +39,8 @@ namespace F3Core.Regions
         {
             Name = 0,
             City = 2,
-            DayOfWeek = 1
+            DayOfWeek = 1,
+            Retired = 3
         };
         public override string AosRetiredIndicator => string.Empty;
         public override bool HasQSourcePosts => true;
