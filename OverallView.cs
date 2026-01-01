@@ -14,6 +14,7 @@ namespace F3Core
         TerracottaChallenge,
         SouthForkChallenge,
         ForgeChallenge,
+        TowerChallenge,
         UNSET
     }
 }

@@ -14,14 +14,14 @@ namespace F3Core.Regions
 
         public override MasterDataColumnIndicies MasterDataColumnIndicies => new MasterDataColumnIndicies
         {
-            Date = 1,
-            Location = 10,
-            PaxName = 11,
-            Fng = 12,
-            Post = 13,
-            Q = 14,
-            QSourcePost = 15,
-            QSourceQ = 16,
+            Date = 0,
+            Location = 1,
+            PaxName = 2,
+            Fng = 3,
+            Post = 4,
+            Q = 5,
+            QSourcePost = 6,
+            QSourceQ = 7,
         };
 
         public override int RosterSheetId => 52995101;
@@ -29,7 +29,7 @@ namespace F3Core.Regions
         public override string RosterNameColumn => "B";
         public override List<RosterSheetColumn> RosterSheetColumns => new List<RosterSheetColumn>
         {
-            RosterSheetColumn.Formula, RosterSheetColumn.PaxName, RosterSheetColumn.Empty, RosterSheetColumn.JoinDate, RosterSheetColumn.Formula, RosterSheetColumn.Empty, RosterSheetColumn.NamingRegionName
+            RosterSheetColumn.PaxName, RosterSheetColumn.JoinDate, RosterSheetColumn.NamingRegionName
         };
 
 
@@ -37,11 +37,9 @@ namespace F3Core.Regions
 
         public override AoColumnIndicies AoColumnIndicies => new AoColumnIndicies
         {
-            Name = 1,
-            City = 3,
-            DayOfWeek = 2,
-            Retired = 7,
-            HasQSource = 8
+            Name = 0,
+            City = 2,
+            DayOfWeek = 1
         };
         public override string AosRetiredIndicator => string.Empty;
         public override bool HasQSourcePosts => true;
