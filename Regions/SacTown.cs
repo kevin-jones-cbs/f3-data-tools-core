@@ -26,7 +26,7 @@ namespace F3Core.Regions
 
         public override int RosterSheetId => 52995101;
         public override string RosterSheetName => "Roster";
-        public override string RosterNameColumn => "B";
+        public override string RosterNameColumn => "A";
         public override List<RosterSheetColumn> RosterSheetColumns => new List<RosterSheetColumn>
         {
             RosterSheetColumn.PaxName, RosterSheetColumn.JoinDate, RosterSheetColumn.NamingRegionName
@@ -40,7 +40,8 @@ namespace F3Core.Regions
             Name = 0,
             City = 2,
             DayOfWeek = 1,
-            Retired = 3
+            HasQSource = 3,
+            Retired = 4
         };
         public override string AosRetiredIndicator => string.Empty;
         public override bool HasQSourcePosts => true;
