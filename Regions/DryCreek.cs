@@ -38,7 +38,9 @@ namespace F3Core.Regions
             Name = 0,
             City = 2,
             DayOfWeek = 1,
-            Retired = 6
+            Retired = 8,
+            HasQSource = 6,
+            IsQSourceOnly = 7
         };
 
         public override string AosRetiredIndicator => "";

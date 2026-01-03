@@ -7,5 +7,6 @@ namespace F3Core
         public DayOfWeek DayOfWeek { get; set; }
         public DateTime Date { get; set; }
         public bool HasQSource { get; set; }
+        public bool IsQSourceOnly { get; set; }
     }
 }
