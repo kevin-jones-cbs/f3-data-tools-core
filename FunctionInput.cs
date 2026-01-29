@@ -22,5 +22,6 @@ namespace F3Core
 
         // Onboarding Support - direct spreadsheet access without region config
         public string SpreadsheetId { get; set; }
+        public string SheetName { get; set; }
     }
 }
