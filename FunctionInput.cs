@@ -19,5 +19,8 @@ namespace F3Core
         // EH Support
         public string PaxName { get; set; }
         public string EhdByPaxName { get; set; }
+
+        // Onboarding Support - direct spreadsheet access without region config
+        public string SpreadsheetId { get; set; }
     }
 }
