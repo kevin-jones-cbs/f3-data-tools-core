@@ -16,6 +16,7 @@ namespace F3Core.Regions
             new Bedrock(),
             new DryCreek(),
             new Emberwatch(),
+            new PlumasLake(),
 
             // FiA Regions
             new FiaSouthFork(),
@@ -47,7 +48,8 @@ namespace F3Core.Regions
             { 10, "Bedrock" },
             { 11, "DryCreek" },
             { 12, "Emberwatch" },
-            { 13, "Other" }
+            { 13, "Plumas Lake" },
+            { 14, "Other" }
         };
     }
 }
