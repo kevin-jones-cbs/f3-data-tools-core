@@ -23,6 +23,7 @@ namespace F3Core
 
             // Group the posts by pax name
             var paxPosts = posts.GroupBy(p => p.Pax).ToDictionary(g => g.Key, g => g.OrderBy(x => x.Date).ToList());
+            var workoutDayIndexes = StreakHelpers.BuildWorkoutDayIndexes(allPossibleWorkoutDays);
             var rows = new List<DisplayRow>();
 
             // Add the pax to the display
@@ -67,7 +68,7 @@ namespace F3Core
                 // Get the Q count
                 row.QCount = pax.Value.Where(p => p.IsQ).Count() + historicalQs;
 
-                (var streak, var streakStart) = StreakHelpers.CalculateStreak(pax.Value, regionInfo);
+                (var streak, var streakStart) = StreakHelpers.CalculateStreak(pax.Value, regionInfo, workoutDayIndexes);
                 row.Streak = streak;
 
                 row.QRatio = row.QCount == 0 ? 0 : (double)row.QCount / row.PostCount * 100;
