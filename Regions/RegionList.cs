@@ -17,6 +17,7 @@ namespace F3Core.Regions
             new DryCreek(),
             new Emberwatch(),
             new PlumasLake(),
+            new Redlands(),
 
             // FiA Regions
             new FiaSouthFork(),
