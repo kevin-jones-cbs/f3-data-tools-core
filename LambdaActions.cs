@@ -26,6 +26,7 @@ namespace F3Core
         public const string VerifySpreadsheetAccess = "VerifySpreadsheetAccess";
         public const string GetSheetTabs = "GetSheetTabs";
         public const string GetSheetPreview = "GetSheetPreview";
+        public const string GetRegions = "GetRegions";
         public const string GetMissingAos = "GetMissingAos";
         public const string GetPax = "GetPax";
         public const string AddPax = "AddPax";
@@ -53,6 +54,7 @@ namespace F3Core
             new(VerifySpreadsheetAccess, requiresRegion: false),
             new(GetSheetTabs, requiresRegion: false),
             new(GetSheetPreview, requiresRegion: false),
+            new(GetRegions, requiresRegion: false, includeInSmokeTests: true),
             new(GetMissingAos, includeInSmokeTests: true),
             new(GetPax, includeInSmokeTests: true),
             new(AddPax, isWrite: true),

@@ -58,5 +58,7 @@ namespace F3Core.Regions
         public virtual bool HasHistoricalData { get; } = false;
         public virtual bool HasQSourcePosts { get; } = false;
         public virtual bool HasExtraActivity { get; } = false;
+        public virtual bool IncludeInSector { get; } = true;
+        public virtual bool IsActive { get; } = true;
     }
 }
